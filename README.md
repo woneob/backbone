@@ -262,7 +262,7 @@ HTML 템플릿들의 두 예를 비교해보자. 하나는 인기있는 Handleba
 <input class="edit" value="<%= title %>">
 ```
 
-당신은 Microtemplates에서 두개의 중괄호( 즉 ```{{}}``` )를 쓸 수도 있다.( 아니면 당신 편하다고 생각되는 다른 어떤 태그라도 쓸 수 있다. ) 중괄호의 경우, 다음과 같이 Underscore의 ```templateSettings``` 속성을 설정해서 사용할 수 있다.
+당신은 Microtemplates에서 두개의 중괄호( 즉 ```{{}}``` )를 쓸 수도 있다.( 아니면 당신이 편하다고 생각되는 다른 어떤 태그라도 쓸 수 있다. ) 중괄호의 경우, 다음과 같이 Underscore의 ```templateSettings``` 속성을 설정해서 사용할 수 있다.
 
 ```javascript
 _.templateSettings = { interpolate : /\{\{(.+?)\}\}/g };
