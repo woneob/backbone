@@ -959,7 +959,7 @@ TodosCollection.add([
 ]);
 ```
 
-또한, 우리는 컬렌션내의 모델에 대한 변경을 강시하는 `change` 이벤트를 바인딩할 수 있다.
+또한, 우리는 컬렉션내의 모델에 대한 변경을 강시하는 `change` 이벤트를 바인딩할 수 있다.
 
 ```javascript
 var TodosCollection = new Backbone.Collection();
