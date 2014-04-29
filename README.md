@@ -748,7 +748,7 @@ var myTodo = new Todo();
 myTodo.set('completed', false); // 출력: Remember to set a title for your todo.
 ```
 
-**메모**: Backbone은 Underscore의 `_.extend` 메쏘드를 사용해서 얕은 복제된 `속성들`( 위의 예제에서 attribs 인자 )을 `validate`에게 인자로 넘긴다. 이것은 어떤 숫자, 문자, 참/거짓 속성을 바꿀 수 없지만, 레퍼런스로 넘어온 객체 속성은 바꿀수 *있다*는 것을 의미한다. 얕은 복제는 내부까지 복사하는 방신이 아니기 때문에, 그 객체의 손성들을 바꿀 수 있다.
+**메모**: Backbone은 Underscore의 `_.extend` 메쏘드를 사용해서 얕은 복제된 `속성들`( 위의 예제에서 attribs 인자 )을 `validate`에게 인자로 넘긴다. 이것은 어떤 숫자, 문자, 참/거짓 속성을 바꿀 수 없지만, 레퍼런스로 넘어온 객체 속성은 바꿀수 *있다*는 것을 의미한다. 얕은 복제는 내부까지 복사하는 방신이 아니기 때문에, 그 객체의 속성들을 바꿀 수 있다.
 
 이 예제(by @fivetanley)는 [여기](http://jsfiddle.net/2NdDY/7/)에서 볼 수 있다.
 
