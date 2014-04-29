@@ -767,7 +767,7 @@ var TodoView = Backbone.View.extend({
 
   tagName:  'li',
 
-  // 단인 항목에 대한 템플릿 함수를 캐쉬한다.
+  // 단일 항목에 대한 템플릿 함수를 캐쉬한다.
   todoTpl: _.template( $('#item-template').html() ),
 
   events: {
