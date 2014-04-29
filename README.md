@@ -62,7 +62,7 @@ DOM 조작, 템플릿, 라우팅 라이브러리를 묶는 것보다 어플리�
 
 ### 왜 Backbone.js을 고려하는가?
 
-다음의 문장이 당실을 표현하는가?:
+다음의 문장이 당신을 표현하는가?:
 
 MVC (Model-View-Controller)는 관심의 분리( SoC )를 통해 개선된 어플리케이션 구조를 장려하는 구조적인 디자인 패턴이다. 그것은 전통적으로 논리 흐름, 사용자 입력, 모델과 뷰의 결합을 관리하는 제 3의 컴포넌트( 컨트롤러 )를 사용하여 비즈니스 정보( 모델 )를 사용자 조작( 뷰 )를 분리하도록 한다. 이 패턴은 원래 Smalltalk-80(1979)에서 일할 때 [Trygve Reenskaug](http://en.wikipedia.org/wiki/Trygve_Reenskaug)가 설계하였는데, 그곳에서 처음에는 Model-View-Controller-Editor라고 불렸다. MVC는 1994년에 출간된 [“Design Patterns: Elements of Reusable Object-Oriented Software”](http://www.amazon.co.uk/Design-patterns-elements-reusable-object-oriented/dp/0201633612) (The "GoF" or “Gang of Four” book)에 상세히 설명되어 있다. 이 책은 MVC사용을 대중화하는데 큰 역할을 했다.
 
