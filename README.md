@@ -943,7 +943,7 @@ console.log("Collection size: " + todos.length);
 
 **이벤트에 대한 감시**
 
-컬렉션이 항몪의 묶음을 표현하기 때문에, 우리는 새로운 모델이 추가되거나 컬력션에서 제거될 때, `add`와 `remove`에 대해 감시할 수도 있다. 여기 예제가 있다:
+컬렉션이 항목의 묶음을 표현하기 때문에, 우리는 새로운 모델이 추가되거나 컬력션에서 제거될 때, `add`와 `remove`에 대해 감시할 수도 있다. 여기 예제가 있다:
 
 ```javascript
 var TodosCollection = new Backbone.Collection();
