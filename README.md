@@ -443,7 +443,7 @@ app.TodoView = Backbone.View.extend({
 
   // TodoView는 다시 그리기 위해 그 모델에 대한 변경을 관찰한다. 
   // 이 어플리케이션에서 **Todo**와 **TOdoView**간에 일대일 일치가 있기 때문에
-  // 우리는 편의를 위해 메델에 작접 설정한다.
+  // 우리는 편의를 위해 모델에 작접 설정한다.
   initialize: function() {
     this.model.on( 'change', this.render, this );
     this.model.on( 'destroy', this.remove, this );
