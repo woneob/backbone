@@ -1422,7 +1422,7 @@ var myTodoRouter = new TodoRouter();
 
 Backbone.history.start();
 
-// 콘술을 확인해본다:
+// 콘솔을 확인해본다:
 // http://localhost/#search/job/p3 출력: Page number: 3 of the results for todos containing the word: job
 // http://localhost/#search/job 출력 : Page number: 1 of the results for todos containing the word: job 
 // 등등 
