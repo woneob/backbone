@@ -331,7 +331,7 @@ Spine에서, 컨트롤러들은 DOM 이벤트를 추가하고 대응하고, 템�
 
 Backbone에서 컨트롤러 로직은 Backbone.View와 Backbone.Router 사이에 공유된다. Backbone의 초기버젼은 Backbone.Controller라고 불리는 것이 있었지만 그 역할을 명확히 하기 위해 Router로 이름을 바꿨다.
 
-라우터의 주요 목적은 URL 요청을 어플리케이션의 상태로 변환한는 것이다. 그것은 URL들을 함수들로 맵핑함으로써 변환을 수행한다. 사용자가 URL www.example.com/filter/completed로 접근할 때, 라우터는 완료된 할일들만 보여주는데 사용될 수 있고 그 요청에 대한 응답으로 어플리케이션의 동작이 무엇을 수행하는지를 정의할 수 있다. 라우터는 모델와 뷰간의 이벤트 바인딩이나 페이지의 일부를 그리는 정통적인 컨틀로러의 역할을 포함할 수 있다. 그러나 Backbone 기여자인 Tim Branyen은 Backbone.Router가 전혀 필요없이도 가능하다는 점을 지적해왔다. 그래서 라우터 패러다임을 사용해서 그것에 대해서 생각하는 한가지가 가능하다:
+라우터의 주요 목적은 URL 요청을 어플리케이션의 상태로 변환한는 것이다. 그것은 URL들을 함수들로 매핑함으로써 변환을 수행한다. 사용자가 URL www.example.com/filter/completed로 접근할 때, 라우터는 완료된 할일들만 보여주는데 사용될 수 있고 그 요청에 대한 응답으로 어플리케이션의 동작이 무엇을 수행하는지를 정의할 수 있다. 라우터는 모델와 뷰간의 이벤트 바인딩이나 페이지의 일부를 그리는 정통적인 컨틀로러의 역할을 포함할 수 있다. 그러나 Backbone 기여자인 Tim Branyen은 Backbone.Router가 전혀 필요없이도 가능하다는 점을 지적해왔다. 그래서 라우터 패러다임을 사용해서 그것에 대해서 생각하는 한가지가 가능하다:
 
 ```javascript
 var TodoRouter = Backbone.Router.extend({
@@ -1336,7 +1336,7 @@ var TodoRouter = Backbone.Router.extend({
         /* 사용 예제: http://example.com/#todo/5 */
 
         "search/:query" : "searchTodos",
-        /* 우리는 동일한 함수에 맵핑되는 여러개의 지점을 정의할 수도 있고,
+        /* 우리는 동일한 함수에 매핑되는 여러개의 지점을 정의할 수도 있고,
         이 경우에는 searchTodos()이다. 아래에서 우리가 인자를 주면 페이지 숫자가
 		레퍼런스로 넘어가는 것을 주목해서 보라 */
         /* 사용 예제: http://example.com/#search/job */
@@ -3209,7 +3209,7 @@ var `libraryView = new LibraryView();`
 </form></div>
 ```
 
-나는 나중에 다시 맵핑할 필요가 없도록 하기 위해서 인풋의 아이디를 Book 모델의 속성과 맞추었다. screen.css에 아래보이는 코드를 추가해라
+나는 나중에 다시 매핑할 필요가 없도록 하기 위해서 인풋의 아이디를 Book 모델의 속성과 맞추었다. screen.css에 아래보이는 코드를 추가해라
 
 ```css
 #addBook label {
@@ -6600,7 +6600,7 @@ define(
 
 define(['foo', 'bar'],
     // 모듈 정의 함수
-    // 의존성(foo와 bar)은 함수 파라미터로 맵핑된다.
+    // 의존성(foo와 bar)은 함수 파라미터로 매핑된다.
     function ( foo, bar ) {
         // 모듈을 내보내기ㅇ 위해 정의한 값을 반환한다
         // ( 즉 우리가 사용하는 쪽에 노출하고 싶어하는 기능 )
@@ -6625,7 +6625,7 @@ define(['foo', 'bar'],
 
 define(function(require){
     // 모듈 정의 함수
-    // 의존성(foo와 bar)은 함수 파라미터로 맵핑된다.
+    // 의존성(foo와 bar)은 함수 파라미터로 매핑된다.
     var foo = require('foo'),
         bar = require('bar');
 
